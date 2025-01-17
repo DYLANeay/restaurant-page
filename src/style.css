@@ -1,0 +1,25 @@
+@import url("reset.css");
+
+
+body {
+    margin: 0 auto;
+    width: 95%;
+    height: auto;
+}
+header{
+    margin-top: 2rem;
+}
+
+header > nav{
+    margin-bottom: 1rem;
+}
+
+#container {
+    width: 50vw;
+    height: 100vh;
+}
+
+img {
+    height: 40vh;
+    width: auto;
+}
