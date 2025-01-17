@@ -10,7 +10,7 @@ function clearContent() {
     content.innerHTML = '';
 }
 
-//arrivée sur la page au début donc on charge home content
+//Arrivée sur la page d'accueil au début donc on charge home content
 homeContent();
 
 const homeBtn = document.getElementById("homeBtn");
