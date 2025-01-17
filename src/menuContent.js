@@ -1,5 +1,7 @@
 export function menuContent() {
 
+    const content = document.getElementById('content');
+
     const container = document.createElement('div');
     container.id = 'container';
   
@@ -12,7 +14,7 @@ export function menuContent() {
     const paragraph = document.createElement('p');
     paragraph.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi et, explicabo natus temporibus maiores alias delectus nobis. Optio doloremque impedit pariatur, possimus beatae error eos facilis! Dolores, voluptatum magnam? Cumque? Soluta natus distinctio asperiores deserunt rerum tempora sunt quas dignissimos exercitationem in, hic iusto aspernatur! Autem sunt repellendus rerum necessitatibus totam sint laudantium commodi ex enim praesentium, vel quasi quisquam.';
   
-    container.appendChild(img);
+    container.appendChild(descr);
     container.appendChild(header);
     container.appendChild(paragraph);
   
